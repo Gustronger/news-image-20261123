@@ -6,6 +6,9 @@ import { fileURLToPath } from "node:url";
 // Sum up 23 November 2026's world news in one image: this program copies
 // the pre-rendered 1024x1024 front page (entry.png, 37 stories, 7 regions)
 // into /output. Standard library only, no network.
+// v2 (24 Nov): poster redesign — one dominant COP31 hero band with a giant
+// red 0 and NO DEAL placard, bigger numbers strip, tighter cards, denser
+// bottom half; same 37 verified 23-Nov stories as v1.
 const here = dirname(fileURLToPath(import.meta.url));
 const src = join(here, "entry.png");
 const outDir = "/output";
